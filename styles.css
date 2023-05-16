@@ -44,3 +44,41 @@ main {
     min-height: 700px;
 }
 
+#hero {
+    width: 960px;
+    height: 600px;
+    border: 2px solid black;
+    margin-bottom: 100px;
+}
+
+#hero:hover {
+    border-radius: 0px;
+    border: 3px solid red;
+}
+
+main p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.lower {
+    display: inline-block;
+    max-width: 30%;
+    margin: 10px;
+    text align; center;
+}
+
+.lower img {
+    width: 300px;
+    height; 300px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(224, 206, 209);
+    height: 100px;
+}
+
+footer p {
+    padding-top: 50px;
+}
