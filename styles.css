@@ -8,10 +8,30 @@ h1 {
 .wrapper {
     width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 60px;
+    color: blue;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
 
 }
 
-.images {
-    max-width: 100%;
+.images>img {
+    max-width: 500px;
     height: auto;
+    
 } 
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+p {
+    width: 50%;
+    font-size: 50px;
+}
